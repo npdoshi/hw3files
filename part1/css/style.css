@@ -1,0 +1,109 @@
+/* 15-237: Building Cross Platform Mobile Web Apps
+ * Homework 3: Part 1 - Advanced HTML and CSS
+ *
+ * Name:
+ * AndrewID:
+ */
+
+body {
+background-image:url('../images/linen_bg.png');
+}
+
+#devices .columns h1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    color: #c90000;
+}
+
+#devices .columns h2{
+    padding-top: 5px;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    color:#b4aaaa;
+}
+
+#devices .columns:hover h1{
+     color:#d7d7d7;
+}
+
+#devices .columns:hover h2{
+     color:#d7d7d7;
+}
+
+#devices .columns{
+    box-sizing: border-box;
+
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #cccccc;
+    background-color: #eeeeee;
+    -moz-box-shadow: 0 0 5px 5px #e4e4e4;
+    -webkit-box-shadow: 0 0 5px 5px #e4e4e4;
+    box-shadow: 0 0 5px 5px #e4e4e4;
+}
+
+#devices .columns:hover{
+     background-image:url('../images/dark_denim_bg.png');
+
+}
+
+
+img {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div .device{
+    overflow:hidden;
+	padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+    border: 1px solid #b0b0b0;
+    background-color: #c7c7c7;
+    -moz-box-shadow: inset 0 0 3px 3px #b2b2b2;
+    -webkit-box-shadow: inset 0 0 3px 3px#b2b2b2;
+    box-shadow: inset 0 0 3px 3px #b2b2b2;
+    background: -webkit-linear-gradient(top, #eaeaea,#e7e7e7, #e3e3e3,#d7d7d7, #bcbcbc);
+}
+
+
+.android{
+    float:right;
+    width:30px;
+    height: 30px;
+    background-image: url('../images/os_type_icons.png');
+    background-position: 0px 0px;
+}
+
+.apple{
+    float:right;
+    width:30px;
+    height: 30px;
+    background-image: url('../images/os_type_icons.png');
+    background-position: 60px 0px;
+}
+
+.windows{
+    float:right;
+    width:30px;
+    height: 30px;
+    background-image: url('../images/os_type_icons.png');
+    background-position: 30px 0px;
+}
+ /* Woops, there appears to be nothing here!  That's because you have to write it! */
+
+#devices .columns:active {
+ -webkit-transform:translate(0px, 2px);
+  -moz-transform:translate(0px, 2px);
+transform:translate(0px, 2px);
+    -moz-box-shadow: 0 0 1px 1px #e4e4e4;
+    -webkit-box-shadow: 0 0 1px 1px#e4e4e4;
+    box-shadow: 0 0 1px 1px #e4e4e4;
+}
